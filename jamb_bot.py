@@ -1,4 +1,5 @@
-from selenium import webdriver
+import imp
+from driver import driver
 from time import sleep
 
 
@@ -6,7 +7,7 @@ class jamb_bot:
     def __init__(self):
         URL = "https://portal.jamb.gov.ng/efacility./"
         PATH = "./chrome_driver/chromedriver"
-        self.driver = webdriver.Chrome(PATH)
+        self.driver = driver()
         self.driver.get(URL)
         self.UTME_registration_number = input(
             "enter your utme registration number: ")
@@ -55,3 +56,6 @@ class jamb_bot:
             self.site_xpaths["admission_status_info"])
         status = admission_status_info.text
         return status
+
+    def quit(self):
+        self.driver.quit()
