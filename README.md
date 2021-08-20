@@ -21,7 +21,7 @@ To run this bot, first you need
 pip install pipenv
 ```
 
-> In the root directory of the project
+> In the root directory of the project (This will Activate a virtual environment)
 
 ```
 pipenv shell
