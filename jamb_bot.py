@@ -1,7 +1,5 @@
-import imp
 from driver import driver
 from time import sleep
-
 
 class jamb_bot:
     def __init__(self):
