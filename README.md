@@ -7,7 +7,7 @@ This project usings the power of selenium (check out the unofficial <a href="htt
 
 To run this bot, first you need
 <ul>
-<li> python (version >= 3.5) </li>
+<li> python (version >= 3.6) </li>
 <li> pipenv </li>
 <li> chromedriver (for windows or linux or windows at version 92.0.4515.107) </li>
 <li> selenium </li>
