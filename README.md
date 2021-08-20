@@ -42,4 +42,4 @@ python main.py
 
 ```
 
-and if done correctly it should as you for your utme registration number, your username/email and your password
+and if done correctly it should ask you for your utme registration number, your username/email and your password in the terminal/command_prompt
