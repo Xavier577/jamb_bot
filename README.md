@@ -6,6 +6,7 @@ This project usings the power of selenium (check out the unofficial <a href="htt
 # Requirements to run this bot
 
 To run this bot, first you need
+
 <ul>
 <li> python (version >= 3.6) </li>
 <li> pipenv </li>
@@ -43,3 +44,7 @@ python main.py
 ```
 
 and if done correctly it should ask you for your utme registration number, your username/email and your password in the terminal/command_prompt
+
+# Issues with chrome driver
+
+please do make sure your chrome driver is the same version as your chrome. If you not then download the correct chrome driver for your corresponding operation system and play in the chrome_driver at the folders representing your corresponding operating system.
